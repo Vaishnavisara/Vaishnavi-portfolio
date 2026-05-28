@@ -745,6 +745,41 @@ section, .section {
   margin-bottom: 20px;
 }
 
+.resume-btn {
+  display: inline-flex;
+  align-items: center;
+  gap: 8px;
+  padding: 12px 30px;
+  background: linear-gradient(135deg, #141b2c 0%, #1e293b 100%);
+  color: #ffffff;
+  border-radius: 50px;
+  font-weight: 600;
+  font-size: 15px;
+  font-family: var(--heading-font);
+  transition: all 0.3s ease;
+  box-shadow: 0 4px 15px rgba(20, 27, 44, 0.3);
+  margin: 0 10px;
+}
+
+.resume-btn:hover {
+  transform: translateY(-3px);
+  box-shadow: 0 6px 20px rgba(20, 27, 44, 0.4);
+  color: #ffffff;
+}
+
+.resume-btn-outline {
+  background: transparent;
+  color: #141b2c;
+  border: 2px solid #141b2c;
+  box-shadow: none;
+}
+
+.resume-btn-outline:hover {
+  background: linear-gradient(135deg, #141b2c 0%, #1e293b 100%);
+  color: #ffffff;
+  box-shadow: 0 6px 20px rgba(20, 27, 44, 0.4);
+}
+
 .btn-contact {
   display: inline-flex;
   align-items: center;
