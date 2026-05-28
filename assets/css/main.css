@@ -745,6 +745,21 @@ section, .section {
   margin-bottom: 20px;
 }
 
+.resume-summary {
+  font-size: 16px;
+  color: #64748b;
+  line-height: 1.8;
+  max-width: 800px;
+  margin: 0 auto 25px;
+}
+
+.resume-btns-wrap {
+  display: flex;
+  justify-content: center;
+  flex-wrap: wrap;
+  gap: 15px;
+}
+
 .resume-btn {
   display: inline-flex;
   align-items: center;
@@ -758,7 +773,6 @@ section, .section {
   font-family: var(--heading-font);
   transition: all 0.3s ease;
   box-shadow: 0 4px 15px rgba(20, 27, 44, 0.3);
-  margin: 0 10px;
 }
 
 .resume-btn:hover {
